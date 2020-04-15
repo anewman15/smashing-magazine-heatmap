@@ -27,34 +27,46 @@
 }
 
 .latest-articles {
-  /* width: 94vw; */
   margin: auto;
   background-color: #F4F4F4;
+}
+
+.latest-articles-wrapper {
+  min-width: 428px;
+  max-width: 1284px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
-.latest-articles > div {
-  width: calc(100% / 3);
+.latest-articles-wrapper > div {
+  width: 428px;
   height: auto;
   margin-bottom: 20px;
-  /* border: 1px solid #000; */
+}
+
+.latest-articles-wrapper :nth-child(4) {
+  flex-grow: 2;
+}
+
+.latest-articles-wrapper :nth-child(9) {
+  flex-grow: 2;
 }
 
 .member-count {
   background-color: #666;
   height: 740px;
-  margin: 0 0 0 35px;
   border: 1px solid #666;
   border-radius: 20px;
+  margin: 0 15px 0 15px;
 }
 
 .smashing-tv {
   background-color: #666;
   height: 740px;
-  margin: 0 35px 0 0;
   border: 1px solid #666;
   border-radius: 20px;
+  margin: 0 15px 0 15px;
 }
 
 .latest-link {
@@ -63,4 +75,93 @@
   background-color: #F4F4F4;
   border: 1px solid #000;
 
+}
+
+.design-handbook {
+  height: 1091px;
+  background-color: #B0B0B0;
+}
+
+.community-links {
+  background-color: #fff;
+}
+
+.person-week {
+  height: 320px;
+  border: 1px solid #000;
+}
+
+.community-articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.community-articles > div {
+  width: 50%;
+  height: 380px;
+  background-color: rgb(189, 187, 187);
+}
+
+.community-articles :nth-child(1) {
+  background-color: rgb(134, 134, 134);
+}
+
+.community-articles :nth-child(4) {
+  background-color: rgb(134, 134, 134);
+}
+
+.community-articles :nth-child(5) {
+  background-color: rgb(134, 134, 134);
+}
+
+.more-twitter {
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.featured-book {
+  height: 406px;
+  background-color: #666;
+}
+
+.guides-links {
+  background-color: #F4F4F4;
+}
+
+.guides-links-wrapper {
+  min-width: 417px;
+  max-width: 1284px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.guides-links-wrapper > div {
+  width: 350px;
+  height: 600px;
+  background-color: rgb(134, 134, 134);
+}
+
+.guides-links-wrapper :nth-child(2n) {
+  background-color: rgb(189, 187, 187);
+}
+
+.guides-links-wrapper :last-child {
+  width: 417px;
+  height: 1033px;
+  background-color: #666;
+  border: 1px solid #666;
+  border-radius: 20px;
+  margin: 0 15px 0 15px;
+  flex-grow: 4;
+}
+
+.all-articles {
+  height: 200px;
+}
+
+.page-footer {
+  height: 711px;
+  background-color: #666;
 }

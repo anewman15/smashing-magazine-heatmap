@@ -5,9 +5,22 @@
 }
 
 .main-articles {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 808px 562px;
+}
+
+.main-articles > div {
+  position: absolute;
+  /* margin: auto; */
+  top: 70px;
+  left: calc((100% - 400px)/2);
+  /* right: 50%; */
+  width: 400px;
+  height: 100px;
+  background-color: #fff;
+  /* border-radius: 40%; */
 }
 
 .article1 {
@@ -33,16 +46,18 @@
 
 .latest-articles-wrapper {
   min-width: 428px;
-  max-width: 1284px;
+  max-width: 1274px;
   margin: auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .latest-articles-wrapper > div {
-  width: 428px;
-  height: auto;
+  width: 400px;
+  height: 740px;
   margin-bottom: 20px;
+  border: 1px solid #3b3b3b;
 }
 
 .latest-articles-wrapper :nth-child(4) {
@@ -51,6 +66,11 @@
 
 .latest-articles-wrapper :nth-child(9) {
   flex-grow: 2;
+}
+
+.latest-articles-wrapper div:nth-child(1) {
+  height: 740px;
+  border: 1px solid #3b3b3b;
 }
 
 .member-count {
@@ -162,6 +182,69 @@
 }
 
 .page-footer {
-  height: 711px;
+  margin: auto;
+  text-align: center;
+  height: 663px;
   background-color: #666;
+}
+
+.page-footer .other-links li {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.page-footer .other-links {
+  list-style-type: disc;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer .other-links p,
+footer .other-links a{
+  line-height: 2;
+  color: white;
+  text-decoration: none;
+}
+
+.page-footer p:first-child {
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.other-links a:hover {
+  color: #000;
+}
+/* .page-footer a::before {
+  list-style-image: url(https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg
+  );
+} */
+
+.other-links a::before {
+  content: '•';
+    margin: 0 .25em 0 .25em;
+    display: inline-block;
+    color: #811d15;
+    font-size: calc(1em + ((.4vw + .25vh)/ 2));
+    position: relative;
+    top: 2px;
+}
+
+.nav {
+  width: 35%;
+  text-align: center;
+  margin: auto;
+}
+
+.page-footer p {
+  margin-top: 30px;
+  color: #fff;
+
+}
+
+.nav li{
+  display: inline;
+  color: #fff;
 }

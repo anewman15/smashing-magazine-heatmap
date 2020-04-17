@@ -1,7 +1,36 @@
 .nav-bar {
   width: 100%;
   height: 200px;
+  color: #fff;
   background-color: #666;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.smashing-logo {
+  width: 20%;
+  margin: auto;
+}
+
+.nav-grow {
+  width: 10%;
+  flex-grow: 1;
+}
+
+.nav-grow img {
+  width: 38px;
+  display: block;
+  margin: 20px auto;
+}
+
+.nav-text {
+  text-align: center;
+}
+
+.search-button {
+  width: 10%;
+  border: 5px solid #fff;
 }
 
 .main-articles {

@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@elijahtobs](https://github.com/ElijahTobs)
 - Twitter: [@elijahgr8](https://twitter.com/Elijahgr8)
-- Linkedin: [linkedin](https://linkedin.com/in/ayandokunelijah)
+- Linkedin: [ayandokunelijah](https://linkedin.com/in/ayandokunelijah)
 
 👤 **Abdullah Numan**
 

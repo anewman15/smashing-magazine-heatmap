@@ -50,6 +50,13 @@
   flex-wrap: wrap;
 }
 
+.latest-articles-wrapper > article {
+  width: 400px;
+  height: 740px;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 10px;
+}
+
 .latest-articles-wrapper > div {
   width: 400px;
   height: 740px;

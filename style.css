@@ -1,11 +1,20 @@
+img {
+  filter: grayscale(100%);
+}
+
 .nav-bar {
   width: 100%;
+  box-sizing: border-box;
   height: 200px;
   color: #fff;
   background-color: #666;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+}
+
+.nav-bar > div {
+  margin: 0 5px;
 }
 
 .smashing-logo {
@@ -28,9 +37,33 @@
   text-align: center;
 }
 
+.nav-text h2 {
+  font-family: "Sansita", sans-serif;
+  font-size: 24px;
+}
+
+.nav-text span {
+  display: block;
+  margin: 20px 0;
+  font-family: "Spinnaker", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
 .search-button {
   width: 10%;
-  border: 5px solid #fff;
+  margin: auto;
+}
+
+.search-text {
+  width: 60%;
+  margin: auto;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  padding: 15px;
+  font-family: "Sansita", sans-serif;
+  font-size: 18px;
+  text-align: center;
 }
 
 .main-articles {

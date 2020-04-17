@@ -12,7 +12,7 @@ We created a gray-scale heatmap of the website.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ebeagusamuel/New-York-Times-Clone/feature-branch/index.html)
+[Live Demo Link](https://rawcdn.githack.com/anewman15/smashing-magazine-heatmap/7161ab9b02332d0cdce4abf18cb13b9ddad420a2/index.html)
 
 To get a local copy up and running follow these simple example steps.
 
@@ -26,9 +26,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Abdullah Numan**
 
-- Github: [@githubhandle](https://github.com/anewman15)
-- Twitter: [@twitterhandle](https://twitter.com/aanuman15)
-- Linkedin: [linkedin](https://www.linkedin.com/in/aanuman15/)
+- Github: [@anewman15](https://github.com/anewman15)
+- Twitter: [@aanuman15](https://twitter.com/aanuman15)
+- Linkedin: [aanuman15](https://www.linkedin.com/in/aanuman15/)
 
 ## 🤝 Contributing
 

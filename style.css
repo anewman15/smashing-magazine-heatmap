@@ -258,10 +258,6 @@ footer .italic {
 .other-links a:hover {
   color: #000;
 }
-/* .page-footer a::before {
-  list-style-image: url(https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg
-  );
-} */
 
 .other-links a::before {
   content: '•';

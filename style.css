@@ -210,6 +210,11 @@
   text-align: center;
   height: 663px;
   background-color: #666;
+  color: #fff;
+}
+
+.other-links {
+  padding-bottom: 10px;
 }
 
 .page-footer .other-links li {
@@ -225,17 +230,29 @@
   text-align: center;
 }
 
-footer .other-links p,
+footer a {
+  text-decoration: underline;
+  line-height: .6;
+  color: #fff;
+}
+
 footer .other-links a{
   line-height: 2;
-  color: white;
   text-decoration: none;
 }
 
-.page-footer p:first-child {
-  color: #fff;
+.footer-header {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 60px;
+}
+
+footer div p {
+  margin-top: 10px;
+}
+
+footer .italic {
+  font-style: italic;
+  margin-top: 50px;
 }
 
 .other-links a:hover {
@@ -260,15 +277,16 @@ footer .other-links a{
   width: 35%;
   text-align: center;
   margin: auto;
-}
-
-.page-footer p {
   margin-top: 30px;
-  color: #fff;
-
 }
+
 
 .nav li{
-  display: inline;
+  display: inline-block;
   color: #fff;
+}
+
+.nav a {
+  line-height: 3;
+  margin: 10px;
 }

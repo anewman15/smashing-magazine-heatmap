@@ -82,6 +82,18 @@ img {
   background-color: #fff;
 }
 
+.featured-article {
+  font-family: Sansita, sans-serif;
+  font-size: 43px;
+  line-height: 1.2;
+  color: #fff;
+  padding: 140px 70px 0 70px;
+}
+
+.first-row {
+  padding-top: 300px !important;
+}
+
 .article1 {
   background-color: #5b5b5b;
 }
@@ -196,7 +208,55 @@ img {
 .design-handbook {
   height: 1091px;
   background-color: #b0b0b0;
+}
+
+.design-book-ad {
+  box-sizing: border-box;
+  width: 800px;
+  padding-top: 80px;
+  margin: auto;
   text-align: center;
+}
+
+.design-book-ad h1 {
+  font-family: "Sansita", sans-serif;
+  font-size: 43px;
+  color: #272727;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.design-book-ad-link {
+  display: block;
+  color: #fff;
+}
+
+.design-book-ad-text {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+.design-book-ad-button {
+  box-sizing: border-box;
+  display: block;
+  width: 300px;
+  height: 60px;
+  color: #6c6c6c;
+  background-color: #fff;
+  padding-top: 20px;
+  margin: auto;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Sansita", sans-serif;
+  font-size: 20px;
+}
+
+.design-book-ad-img {
+  display: block;
+  margin: 80px auto;
 }
 
 .community-links {
@@ -303,9 +363,49 @@ img {
 
 .featured-book {
   height: 406px;
+  display: flex;
+  justify-content: space-between;
   background-color: #666;
-  text-align: center;
   color: white;
+  padding: 60px;
+}
+
+.featured-book-text {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+.featured-book-link {
+  display: block;
+  font-family: "Sansita", sans-serif;
+  font-size: 43px;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.featured-book-button {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  color: #6c6c6c;
+  background-color: #fff;
+  margin-top: 40px;
+  padding-top: 15px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Sansita", sans-serif;
+  font-size: 20px;
+}
+
+.featured-book-img {
+  width: 256px;
+  margin-left: 80px;
 }
 
 .guides-links {

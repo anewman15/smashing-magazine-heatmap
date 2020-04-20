@@ -126,12 +126,6 @@ img {
   padding: 10px 20px 10px 10px;
 }
 
-.community-articles > article {
-  width: 50%;
-  height: 380px;
-  background-color: rgb(189, 187, 187);
-}
-
 .latest-articles-wrapper :nth-child(4) {
   flex-grow: 2;
 }
@@ -218,21 +212,58 @@ img {
 .community-articles {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 20px 40px;
 }
 
 .community-articles-item {
+  width: 50%;
+  height: 380px;
   display: flex;
+  padding: 40px 0;
 }
 
-.author-img {
+.community-author-img {
   height: 60px;
   border: 5px solid #000;
   border-radius: 8px;
 }
 
-.article-content {
-  float: right;
+.community-article-content {
+  padding: 0 50px 0 20px;
+}
+
+.community-articles-author {
+  display: block;
+  margin: 0 0 20px 0;
+  font-family: "Sansita", sans-serif;
+  font-size: 18px;
+  color: #666;
+}
+
+.community-articles-author > a {
+  color: #666;
+}
+
+.community-articles-title {
+  display: block;
+  margin: 20px 0;
+  font-family: "Sansita", sans-serif;
+  font-size: 32px;
+  color: #333;
+  text-decoration: none;
+}
+
+.community-article-date {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 12px;
+  color: #666;
+}
+
+.community-article-text {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333
 }
 
 .more-twitter {

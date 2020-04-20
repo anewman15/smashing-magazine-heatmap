@@ -190,7 +190,7 @@ img {
   display: block;
   padding-top: 75px;
   color: rgb(51, 51, 51);
-  text-decoration: none;
+  /* border-bottom: 5px solid rgb(51, 51, 51); */
   text-align: center;
 }
 
@@ -205,8 +205,33 @@ img {
 }
 
 .person-week {
-  height: 320px;
-  text-align: center;
+  width: 1134px;
+  margin: 60px auto 100px auto;
+  height: auto;
+  display: flex;
+}
+
+.person-week-img {
+  box-sizing: border-box;
+  height: 250px;
+  margin-top: 40px;
+  border: 7px solid #666;
+  border-radius: 20px;
+}
+
+.person-week-text {
+  padding: 0 30px;
+  font-family: "Spinnaker", sans-serif;
+  line-height: 1.5;
+}
+
+.person-week-text :first-child {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.person-week-text :last-child {
+  font-size: 18px;
 }
 
 .community-articles {
@@ -270,7 +295,7 @@ img {
   font-family: "Spinnaker", sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: #333
+  color: #333;
 }
 
 .more-twitter {
@@ -343,7 +368,7 @@ img {
   text-align: center;
 }
 
-footer a {
+.page-footer a {
   text-decoration: underline;
   line-height: 0.6;
   color: #fff;
@@ -358,7 +383,7 @@ footer a {
   color: #555;
 }
 
-footer .other-links a {
+.page-footer .other-links a {
   line-height: 2;
   text-decoration: none;
 }
@@ -368,11 +393,11 @@ footer .other-links a {
   padding-top: 60px;
 }
 
-footer div p {
+.page-footer div p {
   margin-top: 10px;
 }
 
-footer .italic {
+.page-footer .italic {
   font-style: italic;
   margin-top: 50px;
 }

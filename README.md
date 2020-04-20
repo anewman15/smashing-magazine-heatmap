@@ -12,7 +12,7 @@ We created a gray-scale heatmap of the website.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/anewman15/smashing-magazine-heatmap/7161ab9b02332d0cdce4abf18cb13b9ddad420a2/index.html)
+[Live Demo Link](https://raw.githack.com/anewman15/smashing-magazine-heatmap/master/index.html)
 
 To get a local copy up and running follow these simple example steps.
 

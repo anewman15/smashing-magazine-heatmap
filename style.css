@@ -60,7 +60,7 @@ img {
   margin: auto;
   border: 3px solid #fff;
   border-radius: 8px;
-  padding: 15px;
+  padding: 10px 15px;
   font-family: "Sansita", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -126,7 +126,7 @@ img {
   padding: 10px 20px 10px 10px;
 }
 
-.community-articles > div {
+.community-articles > article {
   width: 50%;
   height: 380px;
   background-color: rgb(189, 187, 187);
@@ -218,18 +218,21 @@ img {
 .community-articles {
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
-.community-articles :nth-child(1) {
-  background-color: rgb(134, 134, 134);
+.community-articles-item {
+  display: flex;
 }
 
-.community-articles :nth-child(4) {
-  background-color: rgb(134, 134, 134);
+.author-img {
+  height: 60px;
+  border: 5px solid #000;
+  border-radius: 8px;
 }
 
-.community-articles :nth-child(5) {
-  background-color: rgb(134, 134, 134);
+.article-content {
+  float: right;
 }
 
 .more-twitter {

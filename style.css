@@ -210,25 +210,30 @@ img {
 }
 
 .community-articles {
+  width: 1134px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 40px;
+  justify-content: center;
 }
 
 .community-articles-item {
-  width: 50%;
+  box-sizing: border-box;
   height: 380px;
   display: flex;
-  padding: 40px 0;
+  justify-content: center;
 }
 
 .community-author-img {
+  box-sizing: border-box;
   height: 60px;
-  border: 5px solid #000;
+  border: 5px solid #666;
   border-radius: 8px;
 }
 
 .community-article-content {
+  box-sizing: border-box;
+  width: 507px;
   padding: 0 50px 0 20px;
 }
 
@@ -245,6 +250,7 @@ img {
 }
 
 .community-articles-title {
+  width: 507px;
   display: block;
   margin: 20px 0;
   font-family: "Sansita", sans-serif;
@@ -260,6 +266,7 @@ img {
 }
 
 .community-article-text {
+  width: 456px;
   font-family: "Spinnaker", sans-serif;
   font-size: 18px;
   line-height: 1.5;

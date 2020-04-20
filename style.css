@@ -13,7 +13,7 @@ img {
   align-items: center;
 }
 
-.nav-bar>div {
+.nav-bar > div {
   margin: 0 5px;
 }
 
@@ -124,14 +124,14 @@ img {
   flex-wrap: wrap;
 }
 
-.latest-articles-wrapper>article {
+.latest-articles-wrapper > article {
   width: 400px;
   height: 740px;
   box-sizing: border-box;
   padding: 10px 20px 10px 10px;
 }
 
-.latest-articles-wrapper>div {
+.latest-articles-wrapper > div {
   width: 400px;
   height: 740px;
   box-sizing: border-box;
@@ -143,7 +143,7 @@ img {
   flex-grow: 2;
 }
 
-.guides-links-wrapper>div {
+.guides-links-wrapper > div {
   width: 400px;
   height: 600px;
   background-color: rgb(134, 134, 134);
@@ -326,7 +326,7 @@ img {
   color: #666;
 }
 
-.community-articles-author>a {
+.community-articles-author > a {
   color: #666;
 }
 
